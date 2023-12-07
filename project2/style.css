@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background: url('tt.jpeg');
+     background-size: cover;
+     
+     background-repeat: no-repeat;
+     height: 40%;
+     
+}
+
+form {
+    width: 230px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    top: 50%;
+    margin-top: -200px; /* Adjust this value based on your form's height */
+    animation: fadeIn 1s ease;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+  }
+  
+  
+  form input[type="email"],
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form input[type="placeholder"] {
+      color: black;
+  }
+  
+  form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  form {
+    position: relative;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input[type="email"] {
+    padding-right: 30px; /* Add some padding on the right side of the input */
+  }
+  
+  .input-container h5 img {
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%); 
+    pointer-events: none; 
+  }
+  
+  /* Adjust the size and color of the icon */
+  .input-container h5 img {
+    height: 20px; 
+    color: #999999;
+  }
+  
+  .input-container2 {
+    position: relative;
+  }
+  
+  .input-container2 input[type="text"] {
+    padding-right: 30px;
+  }
+  
+  .input-container2 h4 img {
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%); 
+    pointer-events: none; 
+  }
+  
+  /* Adjust the size and color of the icon */
+  .input-container2 h4 img {
+    height: 20px; 
+    color: #999999;
+  }
+  
+  .input-container3 {
+    position: relative;
+  }
+  
+  .input-container3 input[type="text"] {
+    padding-right: 30px; 
+  }
+  
+  .input-container3 h3 img {
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  
+  /* Adjust the size and color of the icon */
+  .input-container3 h3 img {
+    height: 20px; 
+    color: #999999;
+  }
+  .banner img{
+      max-width:100%;
+      height: 70vh;
+      vertical-align: top;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .image {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
